@@ -80,3 +80,24 @@ vim Suma2CasanovaKiata.cpp
 g++ Suma2CasanovaKiata.cpp -o Suma2CasanovaKiata
 vim Suma2CasanovaKiata.cpp
 g++ Suma2CasanovaKiata.cpp -o Suma2CasanovaKiata
+git init
+pkg install git
+git init
+git add .
+git config --global user.email "molinamarlene589@gmail.com"
+git commit -m "version1"
+git config --global user.email "molinamarlene589@gmail.com"
+git commit -m "version1"
+git commit -m "version2"
+git config --global user.name "Kiara1506"
+git commit -m "version1"
+git remote add origin https://github.com/Kiara1506/Kiara12.git
+git push --force origin master
+vim SumaNCasanovaKiara.cpp
+g++ SumaNCasanovaKiara.cpp -o SumaNCasanovaKiara
+vim SumaNCasanovaKiara.cpp
+g++ SumaNCasanovaKiara.cpp -o SumaNCasanovaKiara
+vim SumaNCasanovaKiara.cpp
+g++ SumaNCasanovaKiara.cpp -o SumaNCasanovaKiara
+./SumaNCasanovaKiara
+scp SumaNCasanovaKiara pi@192.168.6.24:~/2023-09-15/
